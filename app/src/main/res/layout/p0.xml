@@ -27,9 +27,11 @@
         android:id="@+id/NextCard"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/button"
-        android:layout_alignRight="@+id/button"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_alignTop="@+id/NextPage"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
         app:srcCompat="@drawable/cardicon" />
 
     <ImageButton
@@ -44,7 +46,7 @@
         app:srcCompat="@drawable/dicebutton" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/randButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
