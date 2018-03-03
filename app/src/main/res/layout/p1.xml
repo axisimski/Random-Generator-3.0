@@ -23,7 +23,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="32dp"
         android:background="@android:color/black"
-        android:text="Roll"
+        android:text="@string/roll"
         android:textColor="@color/white" />
 
     <ImageView
