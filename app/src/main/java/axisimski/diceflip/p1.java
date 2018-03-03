@@ -37,10 +37,10 @@ public class p1 extends AppCompatActivity {
             public void onClick(View v){
                 dieSide=r.nextInt(6);
 
-                RotateAnimation rotate = new RotateAnimation(0, 720,
+                RotateAnimation rotate = new RotateAnimation(0, 360,
                         RotateAnimation.RELATIVE_TO_SELF, 0.5f, RotateAnimation.RELATIVE_TO_SELF, 0.5f);
 
-                rotate.setDuration(1800);
+                rotate.setDuration(900);
                 heads.startAnimation(rotate);
 
 

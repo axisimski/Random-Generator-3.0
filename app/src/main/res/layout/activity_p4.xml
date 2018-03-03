@@ -4,47 +4,73 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bcg4"
     tools:context="axisimski.diceflip.p4">
+
+    <selector xmlns:android="http://schemas.android.com/apk/res/android">
+        <item>
+            <shape android:shape="rectangle">
+                <solid android:color="#ffffff"/>
+                <corners android:radius="10dp" />
+                <stroke
+                    android:width="2dp"
+                    android:color="#3bbdfa"
+                    />
+            </shape>
+        </item>
+    </selector>
 
     <Button
         android:id="@+id/execute"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Generate Random Number"
+        android:layout_marginBottom="77dp"
         android:onClick="execute"
+        android:text="Generate Random Number"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        tools:layout_editor_absoluteY="442dp" />
+        app:layout_constraintTop_toBottomOf="@+id/low" />
 
     <EditText
         android:id="@+id/high"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
+        android:layout_height="35dp"
+        android:layout_marginBottom="27dp"
+         android:ems="10"
         android:hint="High"
+        android:background="@layout/rounded_border_edittext"
+
         android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/low"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        tools:layout_editor_absoluteY="171dp" />
+        app:layout_constraintTop_toBottomOf="@+id/output" />
 
     <TextView
         android:id="@+id/output"
         android:layout_width="200dp"
-        android:layout_height="45dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="31dp"
+        android:layout_marginTop="95dp"
+        app:layout_constraintBottom_toTopOf="@+id/high"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        tools:layout_editor_absoluteY="95dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/low"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginBottom="152dp"
+        android:background="@color/white"
         android:ems="10"
         android:hint="Low"
         android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/execute"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        tools:layout_editor_absoluteY="244dp" />
+        app:layout_constraintTop_toBottomOf="@+id/high" />
 </android.support.constraint.ConstraintLayout>

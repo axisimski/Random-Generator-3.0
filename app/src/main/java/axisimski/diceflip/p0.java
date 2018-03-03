@@ -47,5 +47,16 @@ public class p0 extends AppCompatActivity {
             }
         });
 
+       Button randButton = (Button) findViewById(R.id.randButton);
+        randButton.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View view){
+                Intent myIntent = new Intent(p0.this, p4.class);
+                startActivity(myIntent);
+
+            }
+        });
+
     }
 }

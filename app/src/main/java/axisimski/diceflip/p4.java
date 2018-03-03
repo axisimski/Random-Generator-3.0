@@ -31,12 +31,14 @@ public class p4 extends AppCompatActivity {
 
     public void execute(View v){
 
-        int l=Integer.getInteger(low.getText().toString());
-        int h=Integer.getInteger(high.getText().toString());
+        int l=Integer.parseInt(low.getText().toString());
+        int h=Integer.parseInt(high.getText().toString());
 
         Random r= new Random();
 
         int ret=r.nextInt(h)+l;
+
+        output.setText(Integer.toString(ret));
     }
 
 
