@@ -9,25 +9,28 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@drawable/bcg4"
+    android:orientation="vertical"
+    android:background="@drawable/bcg"
     tools:context="axisimski.diceflip.p2">
 
     <Button
-        android:text="Flip Coin"
+        android:id="@+id/flip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="33dp"
-        android:id="@+id/flip" />
+        android:background="@android:color/black"
+        android:elevation="17dp"
+        android:text="Flip"
+        android:textColor="@android:color/background_light" />
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:srcCompat="@drawable/heads"
         android:id="@+id/euro"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        app:srcCompat="@drawable/heads" />
 
 </RelativeLayout>
