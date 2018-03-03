@@ -21,7 +21,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".p2" />
-        <activity android:name=".p3"></activity>
+        <activity android:name=".p3" />
+        <activity android:name=".p4"></activity>
     </application>
 
 </manifest>

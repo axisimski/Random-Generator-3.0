@@ -3,9 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\Users\Alex\Desktop\Arbeitsplaz\Private-Other-Code\Early Android Apps\2017-3-8 Dice Cards and Coins\diceFlip\app\app.iml" filepath="C:\Users\Alex\Desktop\Arbeitsplaz\Private-Other-Code\Early Android Apps\2017-3-8 Dice Cards and Coins\diceFlip\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/diceFlip.iml" filepath="$PROJECT_DIR$/diceFlip.iml" />
-      <module fileurl="file://C:\Users\Alex\Desktop\Arbeitsplaz\Private-Other-Code\Early Android Apps\2017-3-8 Dice Cards and Coins\diceFlip\diceFlip.iml" filepath="C:\Users\Alex\Desktop\Arbeitsplaz\Private-Other-Code\Early Android Apps\2017-3-8 Dice Cards and Coins\diceFlip\diceFlip.iml" />
     </modules>
   </component>
 </project>
